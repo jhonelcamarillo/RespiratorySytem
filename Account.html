@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Web-based Hotel Billing </title>
+<link rel="stylesheet" href="Account.css">
+<link rel="shortcut icon" type="image/x-icon" href="HotelLogo.png"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+<a href="FoodBeverages2.html" id="fb" "target="_self">Food and Beverages</a>
+<a href="HotelServices2.html" id="hs" target="_self">Hotel Services</a>
+<a href="Account.html" id="ga" target="_self">Account</a>
+
+<a href="Homepage2.html">
+<img src="HomeIcon.png" id="hp" width="16"></a>
+
+<a href="Homepage.html">
+<img src="SignoutIcon.png" id="so" width="16"></a>
+
+<a href="Homepage2.html" id="home" target="_self">Home</a>
+<a href="Homepage.html" id="signout" target="_self">Sign Out</a>
+
+<div class="banner">
+</div>
+
+<h1>Guest Profile</h1>
+<img src="Profile.png" class="pic" style="width: 80px">
+
+<div class="profile">
+<pre><p id="n"> Name:       		 	<span id="name">Juan Dela Cruz</span></p>
+<p id="ci"> Number of Companion:        	 <span id="checkin">1</span></p>
+<p id="co"> Contact: 		 		<span id="checkout">+639123456789</span></p>
+<p id="rn"> Birthdate: 			<span id="room">Nov 01, 1990</span></p>
+<p id="ui"> Nationality: 			<span id="id">German</span></p>
+<p id="p"> Email Address: 		<span id="pass">soTired@g.com</span></p>
+<p id="qr"> QR Code: </p></pre>
+<img src="QrCodeIcon.png" style="width: 200px; position: absolute; top: 440px; left: 100px;">
+</div>
+
+
+<div class="profile2">
+<pre><p id="p"> Check-in Date: 		<span id="pass">Feb 19, 2021</span></p>
+<p id="n"> Check-out Date:        	<span id="name">Feb 20, 2021</span></p>
+<p id="ci"> Room Number:        	<span id="checkin">101</span></p>
+<p id="co"> User ID: 		 		<span id="checkout">Hotel241dhjs</span></p>
+<p id="rn"> Password: 			<span id="room">2746151513jks</span></p>
+<p id="co"> Transaction Receipt: 		 		<span id="checkout"></span></p>
+<p id="rn"> Payment Method:</span></p>
+</div>
+
+		<form class="col s8">
+				<div class="pm">
+						<select name="days">
+							<option value="0"> Gcash </option>
+							<option value="1"> East West </option>
+							<option value="1"> Paymaya </option>
+							<option value="1"> BPI </option>
+							<option value="1"> BDO </option>
+							<option value="1"> China Bank </option>
+							<option value="1"> Paypal </option>
+							<option value="1"> Union Bank </option>
+						</select>
+				</div>
+				
+				<button class="save"> <a href="Account2.html" id="si">Save Information </a></button>
+				
+		</form>
+
+					<div>
+						<button id="myBtn" class="sr" type="submit" name="next">
+						See Receipt</button>
+						
+					<!-- The Modal -->
+					<div id="myModal" class="modal">
+
+					<!-- Modal content -->
+						<div class="modal-content">
+						<span class="close">&times;</span>
+						<br><br>
+						<b class="modaltext1">HOTEL RECEIPT</b>
+						<hr class="hr1" style="height:2px;border-width:0;color:#DAA520;;background-color:#DAA520;">
+						<br><br>
+						<b class="modaltext2">BILL TO</b>
+						<pre>
+						<p class="modaltext">  <span id="span1">    	 Name						  	Receipt Number</span>
+         Juan Dela Cruz				  	001</p>
+						<p class="modaltext">  <span id="span1">     	 Contact Number				  	Receipt Date</span>
+         +639123456789					March 3, 2021</p>
+						<p class="modaltext">  <span id="span1">    	 Email Address				  	Check-in Date</span>
+         soTired@g.com				  	March 3, 2021</p>
+						<p class="modaltext">  <span id="span1">     	 Payment Method				 	 Check-out Date</span>
+         Gcash						  	March 4, 2021</p>
+						</pre>
+						
+						<div class="tname">
+						<pre>
+						<p id="fs">Foods &
+Services</p>
+						<p id="roomnum">Room
+Number</p>
+						<p id="numdn">Number of
+Days/Nights</p>
+						<p id="rate">Rate per
+Days/Nights</p>
+						<p id="total">Total</p>
+						<p id="count">					101				1			3,200.00		    3,200.00	
+						
+1	 Pizza													    399.00
+
+2	 Spa													     765.00
+
+3
+
+4
+
+5
+
+6
+
+7
+
+												Total (₱)		    <span id="tamount">4,364.00</span></p>
+						</pre>
+						</div>
+						
+						<div class="table">
+						</div>
+						<div class="table2">
+						</div>
+						<div class="table3">
+						</div>
+						<div class="table4">
+						</div>
+						<div class="table5">
+						</div>
+						<div class="table6">
+						</div>
+						<div class="table7">
+						</div>
+						<div class="table8">
+						</div>
+						<div class="table9">
+						</div>
+						<div class="table10">
+						</div>
+						<div class="table11">
+						</div>
+						<div class="table12">
+						</div>
+						<div class="table13">
+						</div>
+						<div class="table14">
+						</div>
+						
+						<img src="HotelLogo.png" style="width:390px; position:absolute; top: 190px; left: 65px; opacity:0.3;">
+						<br>
+						<a href="Account.html">
+						<button type="submit" placeholder="Sign in" class="sbtn" style="width: 90px; position:absolute; top: 670px; left: 365px;">Save</button>
+						<button type="submit" placeholder="Sign in" class="sbtn" style="width: 90px; position:absolute; top: 670px; left: 265px;">Copy</button>
+						</a>
+						
+						
+						</div>
+
+					</div>
+
+					<script>
+					// Get the modal
+					var modal = document.getElementById("myModal");
+
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn");
+
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					  modal.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					  modal.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					  if (event.target == modal) {
+						modal.style.display = "none";
+					  }
+					}
+					
+					$('select').formSelect();
+					</script>
+					</div>
+
+<hr class="footer">
+
+</body>
+
+</html>
